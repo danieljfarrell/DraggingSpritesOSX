@@ -11,6 +11,7 @@
 		65990FE91ABAFBC80012C202 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65990FE81ABAFBC80012C202 /* Images.xcassets */; };
 		65990FEC1ABAFBC80012C202 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65990FEA1ABAFBC80012C202 /* MainMenu.xib */; };
 		65990FF81ABAFBC80012C202 /* DraggingSpritesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65990FF71ABAFBC80012C202 /* DraggingSpritesTests.swift */; };
+		659910021ABAFD7A0012C202 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 659910011ABAFD7A0012C202 /* SpriteKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +33,7 @@
 		65990FF11ABAFBC80012C202 /* DraggingSpritesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DraggingSpritesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		65990FF61ABAFBC80012C202 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		65990FF71ABAFBC80012C202 /* DraggingSpritesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DraggingSpritesTests.swift; sourceTree = "<group>"; };
+		659910011ABAFD7A0012C202 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				659910021ABAFD7A0012C202 /* SpriteKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,6 +58,7 @@
 		65990FD81ABAFBC80012C202 = {
 			isa = PBXGroup;
 			children = (
+				659910011ABAFD7A0012C202 /* SpriteKit.framework */,
 				65990FE31ABAFBC80012C202 /* DraggingSprites */,
 				65990FF41ABAFBC80012C202 /* DraggingSpritesTests */,
 				65990FE21ABAFBC80012C202 /* Products */,
